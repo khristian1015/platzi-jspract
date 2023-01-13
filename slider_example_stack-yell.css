@@ -1,0 +1,53 @@
+.simulador .contenedor {
+  padding: 25px 22px;
+}
+.simulador .contenedor .slider-container {
+  padding: 35px 0px;
+}
+.simulador .contenedor .slider-container .interno {
+  padding: 20px 0px;
+}
+.simulador .contenedor .slider-container .interno .slidecontainer {
+  width: 100%;
+  padding-top: 18px;
+}
+.simulador .contenedor .slider-container .interno .slidecontainer output {
+  font-family: 'museo700';
+  margin-bottom: 0px;
+  position: absolute;
+  padding: .5em;
+  background: transparent;
+  color: yellow;
+}
+.simulador .contenedor .slider-container .interno .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #003664;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border: 0;
+}
+.simulador .contenedor .slider-container .interno .slider:hover {
+  opacity: 1;
+}
+.simulador .contenedor .slider-container .interno .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: 3.5px solid yellow;
+}
+.simulador .contenedor .slider-container .interno .slider ::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: 3.5px solid yellow;
+}
